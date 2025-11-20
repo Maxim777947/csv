@@ -1,7 +1,7 @@
 from abc import ABC, abstractmethod
-from dataclasses import dataclass
-from typing import List, Any
 from collections import defaultdict
+from dataclasses import dataclass
+from typing import Any, List
 
 from src.domain.entities import Employee
 

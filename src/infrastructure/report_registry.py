@@ -1,4 +1,4 @@
-from src.domain.reports import Report, PerformanceReport
+from src.domain.reports import PerformanceReport, Report
 
 
 class ReportRegistry:

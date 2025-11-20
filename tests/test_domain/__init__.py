@@ -2,8 +2,8 @@
 
 import pytest
 
-from src.domain.reports import PerformanceReport, ReportResult
 from src.domain.entities import Employee
+from src.domain.reports import PerformanceReport, ReportResult
 
 
 def test_performance_report_generate(sample_employees):

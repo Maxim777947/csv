@@ -1,4 +1,5 @@
 from typing import List
+
 from src.domain.entities import Employee
 from src.domain.reports import Report, ReportResult
 

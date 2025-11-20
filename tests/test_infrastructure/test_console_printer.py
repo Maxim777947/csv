@@ -1,7 +1,7 @@
 import pytest
 
-from src.infrastructure.console_printer import ConsolePrinter
 from src.domain.reports import ReportResult
+from src.infrastructure.console_printer import ConsolePrinter
 
 
 def test_console_printer_output(capsys):

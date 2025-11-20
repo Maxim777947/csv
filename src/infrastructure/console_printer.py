@@ -1,4 +1,5 @@
 from tabulate import tabulate
+
 from src.domain.reports import ReportResult
 
 

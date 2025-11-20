@@ -1,11 +1,11 @@
 import sys
 
-from src.presentation.cli import CLI
 from src.application.report_service import ReportService
 from src.application.use_cases import GenerateReportUseCase
+from src.infrastructure.console_printer import ConsolePrinter
 from src.infrastructure.csv_reader import CSVReader
 from src.infrastructure.report_registry import ReportRegistry
-from src.infrastructure.console_printer import ConsolePrinter
+from src.presentation.cli import CLI
 
 
 def main() -> None:

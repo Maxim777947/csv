@@ -1,7 +1,7 @@
 import pytest
 
-from src.infrastructure.report_registry import ReportRegistry
 from src.domain.reports import PerformanceReport, Report
+from src.infrastructure.report_registry import ReportRegistry
 
 
 def test_report_registry_initialization():

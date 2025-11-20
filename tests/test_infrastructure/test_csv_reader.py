@@ -1,8 +1,9 @@
-import pytest
 from pathlib import Path
 
-from src.infrastructure.csv_reader import CSVReader
+import pytest
+
 from src.domain.entities import Employee
+from src.infrastructure.csv_reader import CSVReader
 
 
 def test_read_employees_single_file(temp_csv_file):
